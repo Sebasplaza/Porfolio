@@ -1,0 +1,82 @@
+.fotter_diagonal {
+  height: 80px;
+  width: 100%;
+  background: #201027;
+  position: relative;
+}
+.fotter_diagonal::after {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  content: "";
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  transform-origin: top right;
+  transform: skewY(-2deg);
+  background: #201027;
+  box-shadow: 10px 5px 5px black;
+}
+.imagen {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: minmax(20px, auto);
+}
+.imagen2 {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  object-position: 25% 13%;
+}
+.imagen3 {
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+  object-position: 25% 13%;
+  border-radius: 5%;
+}
+
+.titulo {
+  font-size: 55px;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.boton {
+  padding: 20px;
+  background-color: transparent;
+  border: 2px solid#ffff;
+  transition: 0.5s;
+}
+.boton:hover {
+  transition: 0.5s;
+  object-fit: cover;
+  padding: 20px;
+  background-color: #f6b823;
+  background: #f6b823;
+  border: none;
+  color: rgb(0, 0, 0);
+  /* box-shadow: inset 2px 2px 20px rgb(0, 0, 0); */
+  display: flex;
+  align-items: center;
+}
+
+.contenedor {
+  background-color: #201027;
+}
+
+@media (max-width: 700px) {
+  .titulo {
+    font-size: 35px;
+    padding-top: 30px;
+  }
+}

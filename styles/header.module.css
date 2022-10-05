@@ -1,0 +1,13 @@
+.li {
+  font-family: "Press Start 2P", cursive;
+  color: white;
+}
+.container_header {
+  background-color: #212529;
+  border-bottom: 3px solid #ffff;
+  padding: 20px;
+  gap: 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}

@@ -1,0 +1,33 @@
+.boton {
+  padding: 20px;
+  background-color: transparent;
+  border: 2px solid#ffff;
+  transition: 0.5s;
+}
+.boton:hover {
+  transition: 0.5s;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 20px;
+  background-color: #f6b823;
+  background: #f6b823;
+  border: none;
+  color: rgb(0, 0, 0);
+  height: 250px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  font-family: "Press Start 2P", cursive;
+  font-size: 5px;
+}
+
+.boton_titulo:hover {
+  padding: 20px;
+  background-color: transparent;
+  font-family: "Press Start 2P", cursive;
+  font-size: 15px;
+  height: 250px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+}
