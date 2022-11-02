@@ -10,7 +10,7 @@ const Trabajos = () => {
       <Container fluid>
         <Row className={`${styles.fondo} d-flex `}>
           <Col lg={12} sm={12} className={`${styles.contenedor}  `}>
-            <span className={`${styles.titulo}  justify-content-center`}>Proyectos</span>
+            <span className={`${styles.titulo}  justify-content-center`}>Galeria</span>
             <Row className="d-flex align-items-center ">
               <Col lg={12} md={12} sm={12} xs={12} className={`bg-light  p-5`}>
                 <p>UX/UI</p>

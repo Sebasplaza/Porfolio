@@ -3,6 +3,7 @@
 }
 .fondo {
   background-color: #212529;
+  padding: 150px;
 }
 .titulo {
   display: flex;
@@ -47,15 +48,17 @@
   margin: 20px;
 }
 .card_imagen {
-  width: 200px;
-  height: 200px;
   object-fit: cover;
-  border-radius: 10%;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
 }
+
 .p {
   font-size: 50px;
   font-family: "Bebas Neue", cursive;
 }
+
 @media (max-width: 600px) {
   .titulo {
     font-size: 20px;
@@ -73,6 +76,13 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
+  }
+  .fondo {
+    background-color: #212529;
+    padding: 0px;
+  }
+  .subTitulo {
+    font-size: 20px;
   }
 }
 
@@ -92,5 +102,12 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
+  }
+  .fondo {
+    background-color: #212529;
+    padding: 0px;
+  }
+  .subTitulo {
+    font-size: 10px;
   }
 }

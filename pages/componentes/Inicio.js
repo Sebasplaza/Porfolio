@@ -7,8 +7,8 @@ import Link from "next/link";
 const Inicio = () => {
   return (
     <>
-      <Container fluid>
-        <Row className={`${styles.contenedor} d-flex  align-items-center `}>
+      <Container fluid className={`${styles.contenedor}  `}>
+        <Row className={` d-flex  align-items-center `}>
           <Col lg={6} sm={12}>
             <motion.p
               className={`${styles.titulo} text-center`}
@@ -76,9 +76,9 @@ const Inicio = () => {
           <Col lg={6} sm={12}>
             <img src="https://i.imgur.com/RePAEuF.gif" alt="seba" className={styles.imagen3} />
           </Col>
-          <div className={styles.fotter_diagonal}></div>
         </Row>
       </Container>
+      <div className={styles.fotter_diagonal}></div>
     </>
   );
 };

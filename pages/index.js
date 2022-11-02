@@ -9,6 +9,7 @@ import Inicio from "./componentes/Inicio";
 import Skills from "./componentes/Skills";
 import Trabajos from "./componentes/Trabajos";
 import Contacto from "./componentes/Contacto";
+import Proyectos from "./componentes/Proyectos";
 // Estilos
 import styles from "../styles/Home.module.css";
 export default function Home() {
@@ -17,9 +18,12 @@ export default function Home() {
       <Layout>
         <Inicio />
         <Skills />
+        <Proyectos />
         <Trabajos />
+
         <Contacto />
-        {/* <Link href="/componentes/Inicio">ir a inicio</Link>
+
+        <Link href="/componentes/Inicio">ir a inicio</Link>
         <br />
         <Link href="/componentes/Skills">Skilss</Link>
         <br />
@@ -27,7 +31,11 @@ export default function Home() {
         <br />
         <Link href="/componentes/botonContacto">boton</Link>
         <br />
-        <Link href="/componentes/Contacto">CONTACTO</Link> */}
+        <Link href="/componentes/Contacto">CONTACTO</Link>
+        <br />
+        <Link href="/componentes/SkillsCard">skills</Link>
+        <br />
+        <Link href="/componentes/Proyectos">Proyectos</Link>
       </Layout>
     </>
   );
