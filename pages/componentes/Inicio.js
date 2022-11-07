@@ -7,9 +7,9 @@ import Link from "next/link";
 const Inicio = () => {
   return (
     <>
-      <Container fluid className={`${styles.contenedor}  `}>
-        <Row className={` d-flex  align-items-center `}>
-          <Col lg={6} sm={12}>
+      <Container fluid className={` d-flex justify-content-center aling-center`}>
+        <Row className={`${styles.contenedor} d-flex justify-content-center aling-center`}>
+          <Col lg={8} sm={12}>
             <motion.p
               className={`${styles.titulo} text-center`}
               initial={{ scale: 0, x: -500 }}
@@ -49,7 +49,7 @@ const Inicio = () => {
                 </motion.button>
               </Col>
             </Row>
-            <Row className="p-5 d-flex justify-content-center">
+            <Row className=" d-flex justify-content-center">
               <Col lg={2} md={2} sm={2} xs={2}>
                 <a href="https://github.com/Sebasplaza" class="absolute" target="_blank">
                   <i className="nes-icon github is-large"></i>
@@ -72,13 +72,11 @@ const Inicio = () => {
               </Col>
             </Row>
           </Col>
-
-          <Col lg={6} sm={12}>
-            <img src="https://i.imgur.com/RePAEuF.gif" alt="seba" className={styles.imagen3} />
+          <Col lg={4} sm={12}>
+            <img src="https://i.imgur.com/RePAEuF.gif" alt="seba" />
           </Col>
         </Row>
       </Container>
-      <div className={styles.fotter_diagonal}></div>
     </>
   );
 };

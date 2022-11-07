@@ -6,19 +6,16 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 import { useEffect } from "react";
 import SkillsCards from "./SkillsCard";
 const Skills = () => {
-  useEffect;
   return (
     <>
-      {/* <Layout> */}
-      <Container fluid className={`${styles.fondo}  `}>
-        <Col lg={12} md={12} sm={12} xs={12}>
-          <span className={`${styles.titulo}  justify-content-center`}>Skills</span>
-        </Col>
-        <SkillsCards />
+      <Container fluid>
+        <Row className={`${styles.fondo} `}>
+          <Col lg={12} md={12} sm={12} xs={12}>
+            <span className={`${styles.titulo}  justify-content-center`}>Skills</span>
+          </Col>
+          <SkillsCards />
+        </Row>
       </Container>
-
-      <div className={styles.fotter_diagonal}></div>
-      {/* </Layout> */}
     </>
   );
 };

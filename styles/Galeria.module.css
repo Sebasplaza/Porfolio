@@ -1,0 +1,7 @@
+.card_imagen {
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+  padding: 0px;
+  background-color: aqua;
+}

@@ -3,7 +3,7 @@
 }
 .fondo {
   background-color: #212529;
-  padding: 150px;
+  padding: 50px 0px;
 }
 .titulo {
   display: flex;
@@ -12,7 +12,6 @@
   color: rgb(255, 255, 255);
   font-family: "Press Start 2P", cursive;
   text-transform: uppercase;
-  margin-top: 45px;
 }
 .parrafo {
   display: flex;

@@ -3,6 +3,7 @@ import styles from "../../styles/botonContacto.module.css";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { Button, Col, Container } from "react-bootstrap";
+import { Button, Col, Container } from "../imagenes/LOL.jpg";
 const Inicio = () => {
   return (
     <>
